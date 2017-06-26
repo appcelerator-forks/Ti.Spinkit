@@ -1,0 +1,33 @@
+<Alloy>
+	<NavigationWindow id="navWindow">
+		<Window id="win" title="SpinKit">
+			<View top="0" height="200" width="Ti.UI.FILL">
+				<View id="vwSpin"/>
+			</View>
+
+			<TableView onClick="changeSpinnerStyle" top="200" bottom="120" rowHeight="40">
+				<TableViewRow style="SPIN_STYLE_PLANE" title="Plane"/>
+				<TableViewRow style="SPIN_STYLE_CIRCLE_FLIP" title="Flipping circle"/>
+				<TableViewRow style="SPIN_STYLE_BOUNCE" title="Bounce"/>
+				<TableViewRow style="SPIN_STYLE_WAVE" title="Wave"/>
+				<TableViewRow style="SPIN_STYLE_WANDERING_CUBES" title="Wandering Cubes"/>
+				<TableViewRow style="SPIN_STYLE_PULSE" title="Pulse"/>
+				<TableViewRow style="SPIN_STYLE_CHASING_DOTS" title="Chasing dots"/>
+				<TableViewRow style="SPIN_STYLE_THREE_BOUNCE" title="Three bounce"/>
+				<TableViewRow style="SPIN_STYLE_CIRCLE" title="Circle"/>
+				<TableViewRow style="SPIN_STYLE_9_CUBE_GRID" title="9 Cube Grid"/>
+				<TableViewRow style="SPIN_STYLE_WORDPRESS" title="Wordpress"/>
+				<TableViewRow style="SPIN_STYLE_FADING_CIRCLE" title="Fading Circle"/>
+				<TableViewRow style="SPIN_STYLE_FADING_CIRCLE_ALT" title="Fading Circle - alternative"/>
+				<TableViewRow style="SPIN_STYLE_ARC" title="Arc"/>
+				<TableViewRow style="SPIN_STYLE_ARC_ALT" title="Arc - alternative"/>
+			</TableView>
+
+
+			<Button class="button" width="Ti.UI.FILL" bottom="0" title="Change Size" onClick="changeSize"/>
+			<Button class="button" width="50%" left="0" bottom="40" title="Start animation" onClick="startAnimating"/>
+			<Button class="button" width="50%" right="0" bottom="40" title="Stop animation" onClick="stopAnimating"/>
+			<Button class="button" width="Ti.UI.FILL" bottom="80" title="Change color" onClick="changeColor"/>
+		</Window>
+	</NavigationWindow>
+</Alloy>

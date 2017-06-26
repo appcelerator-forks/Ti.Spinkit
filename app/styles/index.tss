@@ -1,0 +1,35 @@
+'Window[platform=ios]' : {
+	// Navigation bar
+	barColor: '#CD1625',
+	navTintColor: '#FFF',
+	translucent: false,
+	titleAttributes: {
+		color: '#FFF'
+	},
+	backgroundColor: '#FFF'
+}
+
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}
+
+'.button': {
+    backgroundColor: '#CD1625',
+    borderColor: 'white',
+    color: 'white',
+    height: 40,
+}
+
+'#vwSpin': {
+    height: 150,
+    width: 150,
+}
