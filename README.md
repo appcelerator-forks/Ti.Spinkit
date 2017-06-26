@@ -1,6 +1,8 @@
 # Ti.Spinkit
 Ti.SpinKit is an iOS Hyperloop wrapper of the SpinKit-ObjC library. Ti.SpinKit provides access to a few different Activity Indicators, giving your app a better look and feel.
 
+![alt text](https://i1.wp.com/loopmodules.com/wp-content/uploads/2016/07/spinkit.gif)
+
 # 1 - Requirements
 
 This project uses HyperLoop so if you want to use it on some project that already exists you will have to perform some changes on it (notably on TiApp.xml).
